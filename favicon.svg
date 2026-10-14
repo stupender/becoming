@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 100 824 824" role="img" aria-label="Becoming">
+  
+  <defs>
+    <clipPath id="shape"><rect x="100" y="100" width="824" height="824" rx="186"/></clipPath>
+    <radialGradient id="ground" cx="50%" cy="48%" r="62%">
+      <stop offset="0" stop-color="#f1d98f"/>
+      <stop offset="0.55" stop-color="#eed9a9"/>
+      <stop offset="1" stop-color="#e9d7b8"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="54"/></filter>
+    <filter id="softer" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="80"/></filter>
+  </defs>
+  <g clip-path="url(#shape)">
+    <rect x="100" y="100" width="824" height="824" fill="url(#ground)"/>
+    <circle cx="512" cy="506" r="440" fill="#f3c46a" opacity="0.6" filter="url(#softer)"/>
+    <circle cx="556" cy="556" r="350" fill="#e96b72" opacity="0.9" filter="url(#soft)"/>
+    <circle cx="500" cy="496" r="304" fill="#ec7a31" filter="url(#soft)"/>
+    <circle cx="494" cy="486" r="176" fill="#f19a38" filter="url(#soft)"/>
+  </g>
+</svg>
